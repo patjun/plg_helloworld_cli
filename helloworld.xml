@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="console" method="upgrade">
+    <name>Helloworld Console Application</name>
+    <version>1.0.0</version>
+    <creationDate>today</creationDate>
+    <author>Me</author>
+    <description>A basic Hello World console application</description>
+    <namespace path="src">My\Plugin\Console\Helloworld</namespace>
+    <files>
+        <folder plugin="helloworld">services</folder>
+        <folder>src</folder>
+    </files>
+</extension>
